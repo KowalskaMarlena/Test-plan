@@ -6,22 +6,12 @@
 - Upewnienie się, że żądanie i odpowiedź są zgodne z oczekiwaniami i spełniają wymagania.
 - Sprawdzenie, czy interakcja między żądaniem a odpowiedzią przebiega prawidłowo.
 
-## Zakres testu:
-
-- Testowanie procesu dodawania produktu do koszyka.
-- Weryfikacja poprawności danych przekazywanych w żądaniu i odpowiedzi.
-- Testowanie różnych przypadków, takich jak dodawanie pojedynczego produktu, dodawanie produktów różnych typów, dodawanie produktu, który jest już w koszyku itp.
-
 ## Środowisko testowe:
 
 - System operacyjny: Windows 10
 - Przeglądarka internetowa: Google Chrome
 - Narzędzia do testowania API lub narzędzia do testowania żądań i odpowiedzi HTTP
 - Dane testowe: dostępne produkty testowe
-
-## Ograniczenia:
-
-- Testowanie zostanie przeprowadzone na wyznaczonym środowisku testowym.
 
 ## Scenariusze testowe:
 
@@ -34,9 +24,9 @@ Warunki wstępne: Koszyk jest pusty. Strona lub interfejs API dodawania produktu
 - Krok 3: Zweryfikuj, czy produkt został poprawnie dodany do koszyka.
 - Krok 4: Sprawdź, czy wyświetlane dane produktu w koszyku są zgodne z oczekiwaniami.
 
-## Procedury testowe:
+Oczekiwany rezultat: Response zwróci kod 200.
 
-### A. Dodawanie produktu do koszyka:
+## Procedury testowe:
 
 - Wykonaj żądanie HTTP dodania produktu do koszyka.
 - Sprawdź, czy żądanie zawiera poprawne dane, takie jak identyfikator produktu, ilość itp.
@@ -50,22 +40,16 @@ Warunki wstępne: Koszyk jest pusty. Strona lub interfejs API dodawania produktu
 - Produkt zostaje poprawnie dodany do koszyka.
 - Wyświetlane dane produktu w koszyku są zgodne z oczekiwaniami.
 
-## Harmonogram testów:
-
-- Przygotowanie środowiska testowego i danych testowych - 1 dzień.
-- Przeprowadzenie testów dodawania produktu do koszyka z punktu widzenia żądania i odpowiedzi - 3 dni.
-- Analiza wyników, raportowanie defektów - 1 dzień.
-
-## Zasoby testowe:
-
-- Zespół testujący, w tym testerzy i programiści.
-- Środowisko testowe z wymaganymi konfiguracjami sprzętowymi i oprogramowaniem.
-- Dostęp do danych testowych, w tym produktów testowych, identyfikatorów itp.
-
 ## Ryzyka i uwagi:
 
 - Ryzyko: Nieprawidłowa komunikacja między żądaniem a odpowiedzią, co może prowadzić do błędów w procesie dodawania produktu do koszyka.
 - Uwaga: Upewnij się, że testy obejmują różne przypadki, takie jak dodawanie produktów różnych typów, dodawanie produktu, który jest już w koszyku, itp.
+
+## Harmonogram testów:
+
+- Etap 1: Przygotowanie środowiska testowego i danych testowych - 1 dzień.
+- Etap 2: Przeprowadzenie testów dodawania produktu do koszyka z punktu widzenia żądania i odpowiedzi - 3 dni.
+- Etap 3: Analiza wyników, raportowanie defektów - 1 dzień.
 
 ## Raportowanie wyników:
 
