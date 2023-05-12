@@ -14,7 +14,7 @@
 
 ### A. Poprawna rezerwacja jednego miejsca w kinie jako zalogowany użytkownik.
 
-Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podtronie do wyboru miejsc.
+Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podstronie do wyboru miejsc.
 
 - Krok 1: Wybierz pole oznaczone kolorem zielonym.
 - Krok 2: Kliknij przycisk „Potwierdź rezerwacje”.
@@ -23,7 +23,7 @@ Oczekiwany rezultat: Użytkownik drogą mailowa otrzyma potwierdzenie rezerwacji
 
 ### B. Poprawna rezerwacja kilku miejsc w kinie jako zalogowany użytkownik.
 
-Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podtronie do wyboru miejsc.
+Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podstronie do wyboru miejsc.
 
 - Krok 1: Wybierz kilka pól oznaczonch kolorem zielonym.
 - Krok 2: Kliknij przycisk „Potwierdź rezerwacje”.
@@ -32,7 +32,7 @@ Oczekiwany rezultat: Użytkownik drogą mailowa otrzyma potwierdzenie rezerwacji
 
 ### C. Niepoprawna rezerwacja miejsc w kinie jako gość.
 
-Warunek wstępny: Użytkownik nie jest zalogowany i znajduje się na podtronie do wyboru miejsc.
+Warunek wstępny: Użytkownik nie jest zalogowany i znajduje się na podstronie do wyboru miejsc.
 
 - Krok 1: Wybierz pole oznaczone kolorem zielonym.
 - Krok 2: Kliknij przycisk „Potwierdź rezerwacje”
@@ -41,7 +41,7 @@ Oczekiwany wynik: Wyświetlony zostanie komunikat informujący, że użytkownik 
 
 ### D. Niepoprawna rezerwacja zalogowanego użytkownika – wybór zarezerwowanego miejsca.
 
-Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podtronie do wyboru miejsc.
+Warunek wstępny: Użytkownik jest zalogowany i znajduje się na podstronie do wyboru miejsc.
 
 - Krok 1: Wybierz pole oznaczone kolorem czerwonym
 
@@ -49,7 +49,7 @@ Oczekiwany rezultat: Wyświetlony zostanie komunikat o braku możliwości rezerw
 
 ### E. Niepoprawna rezerwacja z powodu braku wykonania akcji.
 
-Warunek wstępny: Użytkownik znajduje się na podtronie do wyboru miejsc.
+Warunek wstępny: Użytkownik znajduje się na podstronie do wyboru miejsc.
 
 - Krok 1: Wybierz pole oznaczone kolorem zielonym.
 - Krok 2: Nie wykonuj akcji „Potwierdź rezerwacje” przez 5 minut.
